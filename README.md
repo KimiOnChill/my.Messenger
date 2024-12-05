@@ -9,5 +9,7 @@
 
 This is a study project in which I would create a messenger.
 
+In this messenger you are able to create own account edit it and start chatting with other users.
+
 Link into Figma to see UI project is:
 https://www.figma.com/design/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=0-1&node-type=canvas&t=OvkzHDOTcxpWKDaU-0

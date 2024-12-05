@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  margin-top: var(--XXS);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label{
+  font-size: 13px;
+  display: block;
+  border:none;
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: -25px;
+}
+
+.login-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 340px;
+  border-radius: 12px;
+  box-shadow: 0 0 5px black;
+  text-align: center;
+}
+
+#log-container{
+  height: 450px;
+}
+
+.login-head{
+  margin-top: 45px;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+#login-input-password{
+  margin-top: 30px;
+}
+
+.login-input {
+  width: 280px;
+  margin-top: 25px;
+  font-size: 13px;
+  color: #999999;
+  border: none;
+  border-bottom: 1px solid #3369F3;
+}
+
+.login-button-big{
+  margin-top: 170px; 
+  width: 280px;
+  height: 37px;
+  font-size: 13px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3369F3;
+  color: #FFFFFF;
+}
+
+#reg-button-registration{
+  margin-top: 80px;
+}
+
+.login-button-small {
+  width: 78px;
+  margin-top: 15px;
+  border: none;
+  font-size: 11px;
+  color: #3369F3;
+  background-color: #FFFFFF;
+}
+
+#reg-container{
+  height: 615px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.all-chats{
+  height: 100vw;
+  background-color: antiquewhite;
+  border-right: 2px solid black;
+}
+
+.current-chat{
+  height: 100vw;
+  background-color: #999999;
+}

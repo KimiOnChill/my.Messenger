@@ -1,0 +1,1 @@
+export { default as FailFourPage } from './failFourPage.hbs?raw';
