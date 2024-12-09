@@ -2,9 +2,16 @@
 *::before,
 *::after {
   margin: 0;
-  margin-top: var(--XXS);
+  margin-top: 10px;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root{
+  --main-blue: #3369F3;
+  --basic-white: #FFFFFF;
+  --gray: #999999;
+  --light-gray: #EFEFEF;
 }
 
 label{
@@ -24,13 +31,10 @@ label{
   margin-right: -50%;
   transform: translate(-50%, -50%);
   width: 340px;
+  height: 450px;
   border-radius: 12px;
   box-shadow: 0 0 5px black;
   text-align: center;
-}
-
-#log-container{
-  height: 450px;
 }
 
 .login-head{
@@ -47,9 +51,9 @@ label{
   width: 280px;
   margin-top: 25px;
   font-size: 13px;
-  color: #999999;
+  color: var(--gray);
   border: none;
-  border-bottom: 1px solid #3369F3;
+  border-bottom: 1px solid var(--main-blue);
 }
 
 .login-button-big{
@@ -59,8 +63,8 @@ label{
   font-size: 13px;
   border: none;
   border-radius: 8px;
-  background-color: #3369F3;
-  color: #FFFFFF;
+  background-color: var(--main-blue);
+  color: var(--basic-white);
 }
 
 #reg-button-registration{
@@ -72,8 +76,8 @@ label{
   margin-top: 15px;
   border: none;
   font-size: 11px;
-  color: #3369F3;
-  background-color: #FFFFFF;
+  color: var(--main-blue);
+  background-color: var(--basic-white);
 }
 
 #reg-container{
@@ -97,5 +101,105 @@ button:hover {
 
 .current-chat{
   height: 100vw;
-  background-color: #999999;
+  background-color: var(--gray);
+}
+
+.error-page{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.error-type{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.comment{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#back-to-chats{
+  margin-top: 30px;
+}
+
+.navbar{
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
+.nav-button{
+  border: none;
+  border-bottom: 2px solid blue;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.profile-container{
+  text-align: center;
+}
+
+.circle-avatar{
+  height: 130px;
+  width: 130px;
+  margin-top: 60px;
+  background-color: var(--light-gray);
+  border-radius: 50%;
+}
+
+h2{
+  font-size: 24px;
+  margin-top: 21px;
+}
+
+.circle-avatar{
+  display: inline-block;
+}
+
+table{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.profile-table{
+  margin-top: 76px;
+}
+
+th, td{
+  width: 255px;
+  border-bottom: 1px solid var(--light-gray);
+  text-align: start;
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+
+.right{
+  text-align: right;
+}
+
+.last-row{
+  border: none;
+}
+
+.control-table{
+  margin-top: 73px;
+}
+
+#red{
+  color:red;
+}
+
+.change-input{
+  border: none;
+  text-align: end;
 }

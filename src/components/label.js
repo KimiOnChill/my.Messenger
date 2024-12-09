@@ -1,0 +1,1 @@
+export default `<label for="{{name}}" class="label">{{text}}</label>`
