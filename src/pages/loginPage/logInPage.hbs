@@ -1,0 +1,23 @@
+<div class="login-container" id="log-container">
+
+  <h1 class="login-head">Вход</h1>
+
+  <form> 
+
+    {{!-- {{>label for="login" text="Логин"}}
+    {{>input id="login" name="login"}}
+
+    {{>label for="password" text="Пароль"}}
+    {{>input id="login" name="password"}}
+    --}}
+
+    {{#each regFields}}
+        {{>label}}
+        {{>input}}
+      {{/each}}
+      
+    {{>buttonBig id="login-button-login" text="Авторизоваться"}}
+    {{>buttonSmall id="login-button-create" text="Нет аккаунта?"}}
+
+  </form>
+</div>

@@ -1,0 +1,205 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-blue: #3369F3;
+  --basic-white: #FFFFFF;
+  --gray: #999999;
+  --light-gray: #EFEFEF;
+}
+
+label{
+  font-size: 13px;
+  display: block;
+  border:none;
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: -25px;
+}
+
+.login-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 340px;
+  height: 450px;
+  border-radius: 12px;
+  box-shadow: 0 0 5px black;
+  text-align: center;
+}
+
+.login-head{
+  margin-top: 45px;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+#login-input-password{
+  margin-top: 30px;
+}
+
+.login-input {
+  width: 280px;
+  margin-top: 25px;
+  font-size: 13px;
+  color: var(--gray);
+  border: none;
+  border-bottom: 1px solid var(--main-blue);
+}
+
+.login-button-big{
+  margin-top: 170px; 
+  width: 280px;
+  height: 37px;
+  font-size: 13px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--main-blue);
+  color: var(--basic-white);
+}
+
+#reg-button-registration{
+  margin-top: 80px;
+}
+
+.login-button-small {
+  width: 78px;
+  margin-top: 15px;
+  border: none;
+  font-size: 11px;
+  color: var(--main-blue);
+  background-color: var(--basic-white);
+}
+
+#reg-container{
+  height: 615px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.all-chats{
+  height: 100vw;
+  background-color: antiquewhite;
+  border-right: 2px solid black;
+}
+
+.current-chat{
+  height: 100vw;
+  background-color: var(--gray);
+}
+
+.error-page{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.error-type{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.comment{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#back-to-chats{
+  margin-top: 30px;
+}
+
+.navbar{
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+
+.nav-button{
+  border: none;
+  border-bottom: 2px solid blue;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.profile-container{
+  text-align: center;
+}
+
+.circle-avatar{
+  height: 130px;
+  width: 130px;
+  margin-top: 60px;
+  background-color: var(--light-gray);
+  border-radius: 50%;
+}
+
+h2{
+  font-size: 24px;
+  margin-top: 21px;
+}
+
+.circle-avatar{
+  display: inline-block;
+}
+
+table{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.profile-table{
+  margin-top: 76px;
+}
+
+th, td{
+  width: 255px;
+  border-bottom: 1px solid var(--light-gray);
+  text-align: start;
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+
+.right{
+  text-align: right;
+}
+
+.last-row{
+  border: none;
+}
+
+.control-table{
+  margin-top: 73px;
+}
+
+#red{
+  color:red;
+}
+
+.change-input{
+  border: none;
+  text-align: end;
+}

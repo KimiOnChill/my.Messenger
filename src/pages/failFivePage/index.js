@@ -1,0 +1,1 @@
+export { default as FailFivePage } from './failFivePage.hbs?raw';

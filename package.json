@@ -1,0 +1,27 @@
+{
+  "name": "my.messenger",
+  "version": "1.0.0",
+  "description": "This is a study project in which I would create a messenger.",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite build && node server.cjs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0",
+    "postcss-preset-env": "^9.6.0",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "handlebars": "^4.7.8"
+  }
+}

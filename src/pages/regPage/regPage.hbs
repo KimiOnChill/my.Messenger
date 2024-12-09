@@ -1,0 +1,22 @@
+<div class="login-container" id="reg-container">
+
+    <h1 class="login-head">Регистрация</h1>
+
+    <form>
+
+        {{!-- maybe properties without color should be in index.js 
+
+        {{>label for={{name}} text={{text}} }}
+        {{>input id={{id}} type={{type}} name={{name}} }}
+
+        --}}
+        {{#each regFields}}
+          {{>label}}
+          {{>input}}
+        {{/each}}
+
+        {{>buttonBig id="reg-button-registration" text="Зарегистрироваться"}}
+        {{>buttonBig id="reg-button-to-login" text="Войти"}}
+
+    </form>
+</div>    
